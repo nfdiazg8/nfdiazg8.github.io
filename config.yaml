@@ -7,15 +7,10 @@ title: El Blog de Nicolás
 languages:
     es:
         languageName: Español
-        title: El Blog de Nciolás
+        title: El Blog de Nicolás
         description: ¡Bienvenido a mi blog!
         weight: 1
 
-    en:
-        languageName: English
-        title: The Nicolas's Blog
-        description: Welcome to my blog!
-        weight: 1
 
 
 # Change it to your Disqus shortname before using
