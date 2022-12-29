@@ -2,13 +2,19 @@ baseurl: https://nfdiazg8.github.io/
 languageCode: es-co
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: El Blog de Nicolás
 
 languages:
     es:
         languageName: Español
         title: El Blog de Nciolás
-        description: Bienvenido a mi blog!
+        description: ¡Bienvenido a mi blog!
+        weight: 1
+
+    en:
+        languageName: English
+        title: The Nicolas's Blog
+        description: Welcome to my blog!
         weight: 1
 
 
