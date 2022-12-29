@@ -1,5 +1,0 @@
-baseURL = 'https://nfdiazg8.github.io/'
-languageCode = 'en-us'
-title = 'El Blog de Nicolás'
-theme = "hugo-theme-stack"
-
