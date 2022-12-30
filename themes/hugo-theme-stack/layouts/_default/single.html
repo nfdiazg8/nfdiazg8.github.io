@@ -15,6 +15,8 @@
         {{- end -}}
     {{- end -}}
 
+    {{ partials "google/file" . }}
+
     {{- $TOCManuallyDisabled := eq .Params.toc false -}}
     {{- $TOCEnabled := and (not $TOCManuallyDisabled) $TOCWidgetEnabled -}}
     {{- $hasTOC := ge (len .TableOfContents) 100 -}}
