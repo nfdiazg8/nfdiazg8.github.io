@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nicolás Díaz"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd#inicio
+      - text: "Sobre mí"
+        href: index.qmd#sobre-mi
+      - text: "Proyectos"
+        href: index.qmd#proyectos
+    right:
+      - icon: github
+        href: https://github.com/nfdiazg8
+        aria-label: GitHub
+
+format:
+  html:
+    theme: none
+    css: styles/custom.scss
+    toc: false
+    page-layout: custom
+    smooth-scroll: true
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Libre+Franklin:wght@400;500;600&display=swap" rel="stylesheet">
