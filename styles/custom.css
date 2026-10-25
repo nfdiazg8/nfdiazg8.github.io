@@ -27,7 +27,6 @@ body {
   line-height: 1.6;
 }
 
-/* Fondo cuadriculado */
 body::before {
   content: "";
   position: fixed;
@@ -49,7 +48,6 @@ body::after {
   pointer-events: none;
 }
 
-/* Navbar */
 .navbar {
   background: #17181a !important;
   border-bottom: none;
@@ -80,14 +78,12 @@ body::after {
   font-size: 16px;
 }
 
-/* Contenedor */
 .portfolio {
   display: flex;
   flex-direction: column;
   gap: 0;
 }
 
-/* Hero */
 .hero {
   padding: clamp(80px, 12vw, 160px) clamp(20px, 8vw, 120px) clamp(60px, 10vw, 120px);
   display: grid;
@@ -199,6 +195,10 @@ body::after {
   color: rgba(23, 24, 26, 0.16);
 }
 
+.hero__initials--hidden {
+  display: none;
+}
+
 .hero__photo {
   position: relative;
   width: 100%;
@@ -206,7 +206,10 @@ body::after {
   object-fit: cover;
 }
 
-/* Secciones */
+.hero__photo--hidden {
+  display: none;
+}
+
 .section {
   padding: clamp(40px, 8vw, 90px) clamp(20px, 8vw, 120px);
   display: grid;
@@ -264,7 +267,7 @@ body::after {
   font-family: "IBM Plex Mono", monospace;
   font-size: 10px;
   letter-spacing: 0.14em;
-  text-transform: rgba(23, 24, 26, 0.5);
+  text-transform: uppercase;
   color: var(--faint);
 }
 
@@ -281,7 +284,6 @@ body::after {
   color: var(--accent);
 }
 
-/* Proyectos */
 .projects {
   grid-column: 1 / span 12;
   display: grid;
@@ -359,7 +361,6 @@ body::after {
   color: var(--faint);
 }
 
-/* Footer */
 .footer {
   padding: clamp(30px, 6vw, 60px) clamp(20px, 8vw, 120px) clamp(40px, 8vw, 80px);
   display: flex;
@@ -386,7 +387,6 @@ body::after {
   color: var(--faint);
 }
 
-/* Responsive */
 @media (max-width: 1080px) {
   .hero__content {
     grid-column: 1 / span 12;
